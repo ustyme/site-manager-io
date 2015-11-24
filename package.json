@@ -1,0 +1,41 @@
+{
+    "name":"site-manager-io",
+    "version":"1.0.1",
+    "description":"Client-side UI for the Site-Manager applications",
+    "keywords":["site", "html5", "mobile"],
+    "contributors": [
+        "Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)",
+        "Gabe Hopper <gabe@jolira.com>"
+    ],
+    "repository":{
+        "url":"https://github.com/ustyme/site-manager-io.git",
+        "type":"git"
+    },
+    "dependencies":{
+        "socket.io": "0.9.16",
+        "socket.io-client": "0.9.16",
+        "handlebars": "3.0.3",
+        "socket.io-mongo": "*",
+        "site-assets": "git://github.com/ustyme/site-assets.git"
+    },
+    "devDependencies":{
+        "site-manager": "git://github.com/jolira/site-manager.git",
+        "debug":"*",
+        "horaa":"0.1.2alpha",
+        "vows":"*",
+        "jake":"*",
+        "uglify-js":"*"
+    },
+    "scripts":{
+        "test":"jake test",
+        "prepublish":"npm prune"
+    },
+    "bugs":{
+        "mail":"dev@jolira.com",
+        "url":"http://github.com/ustyme/site-manager-io/issues"
+    },
+    "main":"index",
+    "engines":{
+        "node":">= 0.6.0"
+    }
+}

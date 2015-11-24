@@ -2,7 +2,7 @@
     "use strict";
 
     var ID = "id",
-        SECURE = "{{secureClient}}" == "true",
+        SECURE = window.location.protocol == "https://"? true : false,
         PORT = "{{port}}",
         watchedEvents = {};
 
@@ -79,7 +79,7 @@
                 "max reconnection attempts":Infinity,
                 "match origin protocol": true,
                 "force new connection":true,
-                "secure": true
+                "secure": SECURE
             }));
         }
         catch (e) {

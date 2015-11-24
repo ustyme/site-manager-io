@@ -2,21 +2,13 @@
     "use strict";
 
     var ID = "id",
-        SECURE = window.location.protocol == "https://"? true : false,
+        SECURE = window.location.protocol == "http:"? false : true,
         PORT = "{{port}}",
         watchedEvents = {};
 
     app.middle = app.middle || {};
 
     function getServerURL() {
-        var protocol = SECURE ? "https://" : "http://",
-            port = PORT || location.port;
-        if(port == "80" || port == "3000") {
-            port = "";
-        } else if (port) {
-            port = ":" + port;
-        }
-
         return window.location.protocol + location.hostname;
     }
 

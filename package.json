@@ -1,5 +1,5 @@
 {
-    "name":"site-manager-backbone-io",
+    "name":"site-manager-io",
     "version":"0.10.3",
     "description":"Client-side UI for the Site-Manager applications",
     "keywords":["site", "html5", "mobile"],
@@ -8,7 +8,7 @@
         "Gabe Hopper <gabe@jolira.com>"
     ],
     "repository":{
-        "url":"https://github.com/jolira/site-manager-backbone-io.git",
+        "url":"https://github.com/ustyme/site-manager-io.git",
         "type":"git"
     },
     "dependencies":{
@@ -33,7 +33,7 @@
     },
     "bugs":{
         "mail":"dev@jolira.com",
-        "url":"http://github.com/jolira/site-manager-backbone-io/issues"
+        "url":"http://github.com/ustyme/site-manager-io/issues"
     },
     "main":"index",
     "engines":{

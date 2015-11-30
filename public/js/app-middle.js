@@ -9,7 +9,7 @@
     app.middle = app.middle || {};
 
     function getServerURL() {
-        return window.location.protocol + location.hostname;
+        return window.location.protocol + '//' + location.hostname;
     }
 
     function convert(arg) {

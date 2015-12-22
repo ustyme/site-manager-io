@@ -20,7 +20,7 @@
         "site-assets": "git://github.com/ustyme/site-assets.git"
     },
     "devDependencies":{
-        "site-manager": "git://github.com/jolira/site-manager.git",
+        "site-manager": "git://github.com/ustyme/site-manager.git",
         "debug":"*",
         "horaa":"0.1.2alpha",
         "vows":"*",
